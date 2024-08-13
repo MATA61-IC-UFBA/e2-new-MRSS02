@@ -15,7 +15,7 @@ int main () {
         if (token >= 2 && token <= 5) { // se a token for um caractere de operação
             printf("código do token: %d\n", token); // printa o código do token 
         } else if (token == 6) { // caso inválida
-            printf(" token inválida\n"); // printa a invalidez
+            printf("token inválida\n"); // printa a invalidez
         }
     } 
     printf("\n"); // quebra a linha após o término
