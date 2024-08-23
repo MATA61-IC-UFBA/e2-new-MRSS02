@@ -13,7 +13,7 @@ int main () {
 
         token = yylex(); // chama yylex enquanto não houver quebra de linha
         if (token >= 2 && token <= 5) { // se a token for um caractere de operação
-            printf("código do token: %d\n", token); // printa o código do token 
+            printf("constante decimal: %s\n código do token: %d\n", yytext, token); // printa o código do token 
         } else if (token == 6) { // caso inválida
             printf("token inválida\n"); // printa a invalidez
         }
